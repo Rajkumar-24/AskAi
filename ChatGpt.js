@@ -13,10 +13,10 @@ import axios from "axios";
 import Fetch from "./Fetch";
 import { AntDesign, MaterialIcons } from "@expo/vector-icons";
 import bg from "./assets/rob.png";
-import { API_KEY } from "@env";
 
 const ChatGPT = () => {
   const [data, setData] = useState([]);
+  const API_KEY = "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";
 
   const apiUrl =
     "https://api.openai.com/v1/engines/text-davinci-003/completions";
